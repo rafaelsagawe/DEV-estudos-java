@@ -13,7 +13,19 @@ salario > 5000 20%
  */
 public class ExercicioDeControleDeFluxo {
     public static void main(String[] args) {
-        System.out.println("Ola mundo!!");
+        int salario = 2000;
+
+        if (salario < 1000) {
+            System.out.println("5%");
+        } else if (salario >= 1000 && salario < 2000){
+            System.out.println("10%");
+        }else if (salario >= 2000 && salario < 4000) {
+            System.out.println("15%");
+        } else {
+            System.out.println("20%");
+        }
+
+        /*System.out.println(salario);*/
     }
         
     }
