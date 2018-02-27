@@ -13,19 +13,19 @@ salario > 5000 20%
  */
 public class ExercicioDeControleDeFluxo {
     public static void main(String[] args) {
-        int salario = 2000;
+        double salario = 2000;
+        double totalImposto = 0;
 
         if (salario < 1000) {
-            System.out.println("5%");
+            totalImposto = salario * 0.05;
         } else if (salario >= 1000 && salario < 2000){
-            System.out.println("10%");
+            totalImposto = salario * 0.1;
         }else if (salario >= 2000 && salario < 4000) {
-            System.out.println("15%");
+            totalImposto = salario * 0.15;
         } else {
-            System.out.println("20%");
+            totalImposto = salario * 0.20;
         }
-
-        /*System.out.println(salario);*/
+System.out.println("O total do imposto e: " + totalImposto);
     }
         
     }
