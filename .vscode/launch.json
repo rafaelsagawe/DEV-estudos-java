@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Debug (Launch)-Calculadora",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "Calculadora",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-ExercicioDeControleDeFluxo",
             "request": "launch",
             "cwd": "${workspaceFolder}",
