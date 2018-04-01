@@ -11,7 +11,7 @@ idade >= 18 adulto
 
 import java.util.Scanner; //Importa a bilioteca para leitura do teclado
 
-public class CategoriaJogador {
+public class CategoriaJogadorIdade {
       public static void main(String[] args) {
           Scanner idadeEntrada = new Scanner (System.in);
           int idade;
