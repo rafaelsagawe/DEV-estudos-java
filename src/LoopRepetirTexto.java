@@ -16,5 +16,4 @@ public class LoopRepetirTexto{
       System.out.println(x + texto);
     }
   }
-
 }
