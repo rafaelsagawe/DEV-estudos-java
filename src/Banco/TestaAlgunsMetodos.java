@@ -1,4 +1,4 @@
-class AlgunsMetodos{
+class TestaAlgunsMetodos{
   public static void main(String[] args) {
     // Criando Conta
     Conta minhaConta;
