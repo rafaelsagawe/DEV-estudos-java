@@ -18,6 +18,7 @@ String departamento = "Tecnologia da Informação";
 double salario = 1500;
 int rG = 202020202;
 
+
   void receberAumento(double aumento){
 
   }
