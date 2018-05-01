@@ -12,9 +12,11 @@ calculo de ganho anual
 */
 
 class Funcionario{
-String nomeFuncionario;
-String 
-  double salario;
+String nomeFuncionario = "Rafael";
+String dataAdmicao = "25 de abril de 2018";
+String departamento = "Tecnologia da Informação";
+double salario = 1500;
+int rG = 202020202;
 
   void receberAumento(double aumento){
 
@@ -25,6 +27,6 @@ String
   }
 
 void mostra();
-System.out.println("Nome: " + this.nome);
+System.out.println("Nome: " + nomeFuncionario);
 
 }
