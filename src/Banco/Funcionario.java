@@ -1,33 +1,37 @@
 /*
-Class funcionario deve ter:
-nome
-data de entrada no banco
-dp onde trabalha
-salario
-rg
+   Class funcionario deve ter:
+   nome
+   data de entrada no banco
+   dp onde trabalha
+   salario
+   rg
 
-metodo:
-receberAumento
-calculo de ganho anual
-*/
+   metodo:
+   receberAumento
+   calculo de ganho anual
+ */
 
-class Funcionario{
+class Funcionario {
 String nomeFuncionario = "Rafael";
-String dataAdmicao = "25 de abril de 2018";
-String departamento = "Tecnologia da Informação";
-double salario = 1500;
-int rG = 202020202;
+String dataAdmicao;
+String departamento;
+double salario;
+int rG;
 
+   void receberAumento(double aumento){
 
-  void receberAumento(double aumento){
+   }
 
-  }
+double calculoDeGanhoAnual = salario;
 
-  double calculoDeGanhoAnual(){
-
-  }
-
-void mostra();
-System.out.println("Nome: " + nomeFuncionario);
+void amostra(){
+        System.out.println("  Dados de Funcionario  ");
+        System.out.println("Nome do funcionario: " + nomeFuncionario);
+        System.out.println("Data de admição: " + dataAdmicao);
+        System.out.println("Departamento de Atuação: " + departamento);
+        System.out.println("  Dados de Financeiros  ");
+        System.out.println("Salario atual: " + salario);
+        System.out.println("Ganho de um ano de trabalho: " + calculoDeGanhoAnual);
+};
 
 }
