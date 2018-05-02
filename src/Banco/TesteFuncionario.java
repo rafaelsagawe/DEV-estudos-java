@@ -5,13 +5,14 @@ public static void main(String[] args) {
         f1.salario = 1500;
         f1.dataAdmicao = "1 de abril de 2018";
         f1.departamento = "Tecnologia de Informação";
-        f1.receberAumento(50);
+        f1.bonifica(50);
 
         Funcionario f2 = new Funcionario();
         f2.nomeFuncionario = "Bruna Martins";
-        f2.salario = 1500;
+        f2.salario = 1520;
         f2.dataAdmicao = "6 de setembro de 2015";
         f2.departamento = "Administração";
+        f2.bonifica(80);
 
         Funcionario f3 = new Funcionario();
         f3 = f1;
