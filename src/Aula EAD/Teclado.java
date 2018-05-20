@@ -12,6 +12,14 @@ class Teclado{
     System.out.println("Digite a sua idade: ");
     idade = teclado.nextInt();
     System.out.println(nome + " tem " + idade + " anos." );
+
+    // Identificação de maior idade
+    if (idade >= 18) {
+      System.out.println("Maior de idade");
+      }
+      else {
+        System.out.println("Menor de idade");
+      }
   }
 
 }
