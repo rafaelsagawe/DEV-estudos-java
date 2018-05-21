@@ -27,7 +27,6 @@ public static void main(String[] args) {
         System.out.println("Sua media é: " + formatador.format(media));
 // Final
 
-
 // Estrutura para verificação da situação do aluno
         if (media <= 2) {
                 System.out.println("Aluno reprovado");
