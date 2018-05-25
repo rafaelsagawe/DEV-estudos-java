@@ -32,21 +32,19 @@ public static void main(String[] args) {
         default:
                 System.out.println("Opção invalida");
                 break;
-
         }
-
 }
 public static void windowns(){
-System.out.println("Carregando o sistema Windowns");
-System.out.println("00000000000000000000000000000");
+        System.out.println("Carregando o sistema Windowns");
+        System.out.println("00000000000000000000000000000");
 }
 public static void linux(){
-  System.out.println("Carregando o sistema Linux");
-  System.out.println("00000000000000000000000000000");
+        System.out.println("Carregando o sistema Linux");
+        System.out.println("00000000000000000000000000000");
 }
 public static void macos(){
-  System.out.println("Carregando o sistema MacOS");
-  System.out.println("00000000000000000000000000000");
+        System.out.println("Carregando o sistema MacOS");
+        System.out.println("00000000000000000000000000000");
 }
 
 }
